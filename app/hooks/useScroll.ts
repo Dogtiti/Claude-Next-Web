@@ -26,7 +26,6 @@ const useScroll = ({ streaming }: Props) => {
 	}, []);
 
 	const handleScroll = useCallback(
-		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		(e: any) => {
 			if (streaming) return;
 			const bottom =
